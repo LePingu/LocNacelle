@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="60"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:weightSum="60">
+
+            <TextView
+                android:id="@+id/barreLivraison"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/titreBarre1"
+                android:textColor="@android:color/white"
+                android:background="@color/barre2"
+                android:gravity="center_vertical|left"
+                android:padding="20dp"/>
+
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="4"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/linear3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <Button
+                        android:id="@+id/pleinPiedBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:background="@android:color/transparent"
+                        android:text="@string/pleinPied"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:textSize="26dp"
+                        android:gravity="center|left"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:paddingRight="10dp"/>
+
+                    <Button
+                        android:id="@+id/quaiBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:background="@android:color/transparent"
+                        android:text="@string/quai"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:textSize="26dp"
+                        android:gravity="center|left"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/barreAcces"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/titreBarre2"
+                android:textColor="@android:color/white"
+                android:background="@color/barre2"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical|left"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="14">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/oui_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_weight="6.5"
+                    android:background="@android:color/transparent"
+                    android:text="@string/oui"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:drawableLeft="@drawable/oui"/>
+
+
+                <Button
+                    android:id="@+id/non_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_weight="5"
+                    android:background="@android:color/transparent"
+                    android:text="@string/non"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:drawableLeft="@drawable/non"/>
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/barreLargeur"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/titreBarre3"
+                android:textColor="@android:color/white"
+                android:background="@color/barre2"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical|left"/>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/largeur"
+                    android:layout_weight="1.5"
+                    android:layout_height="60dp"
+                    android:layout_width="0dp"
+                    android:textSize="30dp"
+                    android:text="0 M"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    />
+
+                <TextView
+                    android:id="@+id/seekbarmoins"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/seekbarmoins"
+                    android:drawablePadding="5dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"/>
+
+                <SeekBar
+                    android:id="@+id/seekbarLargeur"
+                    android:layout_weight="2.5"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    />
+
+                <TextView
+                    android:id="@+id/seekbarplus"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/seekbarplus"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"/>
+
+            </TableRow>
+
+
+            <Button
+                android:id="@+id/btnEtapeSuivante"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0469BA"
+                android:textColor="@android:color/white"
+                android:text="@string/etapeSuivante"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

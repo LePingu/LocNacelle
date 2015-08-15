@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6">
+
+    <EditText
+        android:id="@+id/editNom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:hint="@string/nom"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editNumero"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:hint="@string/numeroRue"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editRue"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:hint="@string/rue"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editCodePostal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:hint="@string/codePostal"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editVille"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:hint="@string/ville"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnEtapeSuivante"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0469BA"
+        android:textColor="@android:color/white"
+        android:text="@string/etapeSuivante"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+</LinearLayout>

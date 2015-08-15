@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="#7F6D8BE6"
+    tools:context="com.example.hatim.locnacelle.MyBeamTryActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Hatim Nourbay    60 points"
+        android:textSize="20dp"
+        android:textColor="@color/material_blue_grey_800"
+        android:drawableLeft="@drawable/profile"
+        android:drawableRight="@drawable/abc_btn_rating_star_off_mtrl_alpha"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Hatim Nourbay    60 points"
+        android:textSize="20dp"
+        android:textColor="@color/material_blue_grey_800"
+        android:drawableLeft="@drawable/profile"
+        android:drawableRight="@drawable/abc_btn_rating_star_off_mtrl_alpha"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Hatim Nourbay    60 points"
+        android:textSize="20dp"
+        android:textColor="@color/material_blue_grey_800"
+        android:drawableLeft="@drawable/profile"
+        android:drawableRight="@drawable/abc_btn_rating_star_off_mtrl_alpha"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Hatim Nourbay    60 points"
+        android:textSize="20dp"
+        android:textColor="@color/material_blue_grey_800"
+        android:drawableLeft="@drawable/profile"
+        android:drawableRight="@drawable/abc_btn_rating_star_off_mtrl_alpha"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Hatim Nourbay    60 points"
+        android:textSize="20dp"
+        android:textColor="@color/material_blue_grey_800"
+        android:drawableLeft="@drawable/profile"
+        android:drawableRight="@drawable/abc_btn_rating_star_off_mtrl_alpha"/>
+
+</LinearLayout>

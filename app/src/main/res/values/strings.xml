@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">LocNacelleNouveauTest</string>
+
+    <string name="title_section1">Réservation</string>
+    <string name="title_section2">Assistance</string>
+    <string name="title_section3">Formation</string>
+    <string name="title_section4">Catalogue</string>
+    <string name="title_section5">Mesures</string>
+    <string name="title_section6">Administration</string>
+    <string name="title_section7">Se déconnecter</string>
+
+    <string name="tab_title_1">Société</string>
+    <string name="tab_title_2">Contact</string>
+    <string name="tab_title_cert1">Réglementation</string>
+    <string name="tab_title_cert2">Certification</string>
+    <string name="tab_title_cert3">Programmes</string>
+    <string name="tab_title_cert4">évaluation</string>
+
+    <string name="tab_title_ass1">Mise en route</string>
+    <string name="tab_title_ass2">éléments essentiels</string>
+    <string name="tab_title_ass3">dépannage</string>
+    <string name="tab_title_ass4">être rappelé</string>
+    <string name="tab_title_ass5">rechercher</string>
+
+
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/title_section1</item>
+        <item>@string/title_section2</item>
+        <item>@string/title_section3</item>
+        <item>@string/title_section4</item>
+        <item>@string/title_section5</item>
+        <item>@string/title_section6</item>
+        <item>@string/title_section7</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_essai_fragment">EssaiFragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_accueil">AccueilActivity</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="title_mine_activity">MineActivity</string>
+    <string name="title_activity_caca">caca</string>
+    <string name="title_activity_test_splash">TestSplash</string>
+
+
+    <string name="etapeSuivante">SUIVANT</string>
+
+    <string name="reservation">Réservation</string>
+
+    <string name="titreDialog">Oups</string>
+    <string name="indicDialog">Veuillez sélectionner correctement les options pour passer à l\'étape suivante.</string>
+    <string name="Ok">OK</string>
+
+    <!-- Mot de passe oublié Activity -->
+    <string name="email">Adresse email</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="title_activity_oubli_mdp">"Mot de passe oublié "</string>
+
+    <!-- Inscription Activity -->
+    <string name="title_activity_inscription">Inscription</string>
+
+    <string name="nom">NOM</string>
+    <string name="prenom">Prénom</string>
+    <string name="fonction">Fonction</string>
+    <string name="societe">Société</string>
+    <string name="telephone">Numéro de téléphone</string>
+    <string name="departement">Département</string>
+    <string name="mail">Mail</string>
+    <string name="motdepasse">Mot de passe</string>
+
+    <string name="popupErreur">Erreur</string>
+    <string name="message">Vous devez remplir tous les champs pour vous inscrire.</string>
+    <string name="popupValide">Inscription terminée</string>
+    <string name="numInvalide">Veuillez entrer un numéro de téléphone valide.</string>
+
+    <string name="permNom">NOM</string>
+    <string name="permPrenom">PRÉNOM</string>
+    <string name="permFonction">FONCTION</string>
+    <string name="permSociete">SOCIÉTÉ</string>
+    <string name="permTelephone">NUMÉRO DE TÉLÉPHONE</string>
+    <string name="permDepartement">DÉPARTEMENT</string>
+    <string name="permMail">MAIL</string>
+    <string name="permMdp">MOT DE PASSE</string>
+
+
+    <!-- Etape 2 -->
+    <string name="title_activity_type_chantier">Étape 2</string>
+    <string name="TypeChantier">Type de chantier</string>
+    <string name="interieur">INTÉRIEUR</string>
+    <string name="exterieur">EXTÉRIEUR</string>
+    <string name="title_activity_description_besoin">DescriptionBesoinActivity</string>
+
+    <!-- Etape 3 -->
+
+    <string name="besoin">Décrivez avec précision votre besoin afin que nous puissions vous conseiller de la meilleure des manières...</string>
+    <string name="title_activity_etape3">ÉTAPE 3</string>
+    <string name="descrip_besoin">Description du besoin</string>
+
+    <!-- Etape 4 -->
+    <string name="title_activity_etape4">ÉTAPE 4</string>
+    <string name="sous_sol">Présence d\'un sous-sol</string>
+    <string name="oui">OUI</string>
+    <string name="non">NON</string>
+    <string name="precision">Précisez le type de sous-sol</string>
+    <string name="garage">Garage</string>
+    <string name="parking">Parking</string>
+    <string name="vide_sanitaire">Vide-sanitaire</string>
+    <string name="autre">Autre</string>
+    <string name="typeSousSol">QUEL TYPE DE SOUS-SOL ?</string>
+
+    <!-- Etape 5 -->
+    <string name="title_activity_etape5">ÉTAPE 5</string>
+    <string name="titre4">Type et poids</string>
+    <string name="typeSol">Précisez le type de sol</string>
+    <string name="beton">Béton</string>
+    <string name="enrobe">Enrobé</string>
+    <string name="carrelage">Carrelage</string>
+    <string name="plancher">Plancher technique</string>
+    <string name="parquet">Parquet</string>
+    <string name="plastique">Plastique</string>
+    <string name="bois">Bois</string>
+    <string name="terrain">Terrain naturel</string>
+    <string name="concasse">Concassé</string>
+    <string name="limitation">Limitation du poids de la nacelle ?</string>
+    <string name="poids">2500 KG</string>
+
+    <!-- Etape 6 -->
+    <string name="title_activity_etape6">ÉTAPE 6</string>
+    <string name="titre6">Besoin d\'élévation</string>
+    <string name="chargeSup">Charge supérieure à 200 kg ?</string>
+    <string name="poidsMax">Poids maximum</string>
+
+    <!-- Etape 7 -->
+    <string name="title_activity_etape7">ÉTAPE 7</string>
+    <string name="titre7">Accès</string>
+    <string name="titreBarre1">Livraison de la nacelle</string>
+    <string name="titreBarre2">Impératif d\'accès au site en largeur ?</string>
+    <string name="titreBarre3">Largeur en mètres</string>
+    <string name="pleinPied">Livraison de plein pied</string>
+    <string name="quai">Livraison à quai uniquement</string>
+
+
+    <!-- Etape 8 -->
+    <string name="title_activity_etape8">ÉTAPE 8</string>
+    <string name="titre8">ADRESSE DU CHANTIER</string>
+    <string name="numeroRue">NUMÉRO</string>
+    <string name="rue">RUE</string>
+    <string name="codePostal">CODE POSTAL</string>
+    <string name="ville">VILLE</string>
+    <string name="dialog_champs">Veuillez remplir tous les champs</string>
+    <string name="title_activity_subscribe">SubscribeActivity</string>
+    <string name="title_activity_my_beam_try">MyBeamTryActivity</string>
+</resources>

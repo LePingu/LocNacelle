@@ -1,0 +1,56 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+
+    tools:context="com.example.hatim.locnacelle.DepannageFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/textquestion1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="#FF435265"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="Question 1" />
+        <TextView
+            android:id="@+id/textrep1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:textSize="15dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"/>
+
+        <TextView
+            android:id="@+id/textquestion2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="#FF435265"
+            android:text="Question 2"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/textrep2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:textSize="15dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
+

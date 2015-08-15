@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="60"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:weightSum="60">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/barre3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:text="@string/typeSol"
+                    android:textColor="@android:color/white"
+                    android:background="@color/barre2"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical|left"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/betonBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/beton"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <Button
+                    android:id="@+id/enrobeBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/enrobe"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/carrelageBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/carrelage"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <Button
+                    android:id="@+id/plancherBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/plancher"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/parquetBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/parquet"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <Button
+                    android:id="@+id/plastiqueBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/plastique"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/boisBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/bois"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <Button
+                    android:id="@+id/terrainBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/terrain"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/concasseBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/concasse"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <Button
+                    android:id="@+id/videBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/barre4"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:text="@string/limitation"
+                    android:textColor="@android:color/white"
+                    android:background="@color/barre2"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical|left"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/oui_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_weight="7"
+                    android:background="@android:color/transparent"
+                    android:text="@string/oui"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:drawableLeft="@drawable/oui"/>
+
+
+                <Button
+                    android:id="@+id/non_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_weight="5"
+                    android:background="@android:color/transparent"
+                    android:text="@string/non"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:drawableLeft="@drawable/non"/>
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/barre5"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:text="@string/limitation"
+                    android:textColor="@android:color/white"
+                    android:background="@color/barre2"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical|left"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/poids"
+                    android:layout_weight="1.5"
+                    android:layout_height="60dp"
+                    android:layout_width="0dp"
+                    android:textSize="30dp"
+                    android:text="0 KG"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    />
+
+                <TextView
+                    android:id="@+id/seekbarmoins"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/seekbarmoins"
+                    android:drawablePadding="5dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"/>
+
+                <SeekBar
+                    android:id="@+id/seekbarPoids"
+                    android:layout_weight="2.5"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    />
+
+                <TextView
+                    android:id="@+id/seekbarplus"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/seekbarplus"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"/>
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/btnEtapeSuivante"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0469BA"
+                android:textColor="@android:color/white"
+                android:text="@string/etapeSuivante"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+
+        </TableLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

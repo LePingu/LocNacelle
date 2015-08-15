@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="40"
+    tools:context=".Etape2">
+
+    <TextView
+        android:id="@+id/barre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/avancement2"
+        android:background="@color/barre"
+        android:paddingLeft="20dp"
+        android:text="@string/title_activity_type_chantier"
+        android:textAllCaps="true"
+        android:textColor="@color/ecriture"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/barre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/barre"
+        android:text="@string/TypeChantier"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_weight="4"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="35"/>
+
+
+</LinearLayout>

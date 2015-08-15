@@ -1,0 +1,153 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.example.hatim.locnacelle.AssaiFragment"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="0.5">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title_section1"
+                android:textColor="@color/white"
+                android:id="@+id/reservation"
+                android:background="#ff1a78be"
+                android:gravity="center|bottom"
+                android:singleLine="false"
+                android:paddingBottom="30dp"
+                android:onClick="onClick" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/calendar"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title_section2"
+                android:textColor="@color/white"
+                android:id="@+id/assistance"
+                android:background="#ff3387c7"
+                android:gravity="center|bottom"
+                android:singleLine="false"
+                android:paddingBottom="30dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/warning"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="0.5">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title_section3"
+                android:textColor="@color/white"
+                android:id="@+id/formation"
+                android:background="#ff4e97ce"
+                android:gravity="center|bottom"
+                android:paddingBottom="30dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/study"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title_section4"
+                android:textColor="@color/white"
+                android:id="@+id/catalogues"
+                android:background="#ff67a5d4"
+                android:gravity="center|bottom"
+                android:paddingBottom="30dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/book"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="0.5">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title_section5"
+                android:textColor="@color/white"
+                android:id="@+id/mesures"
+                android:background="#ff80b4dc"
+                android:gravity="center|bottom"
+                android:paddingBottom="30dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mesure"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title_section6"
+                android:textColor="@color/white"
+                android:id="@+id/administration"
+                android:background="#ff98c3e3"
+                android:gravity="center|bottom"
+                android:paddingBottom="30dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/friends"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </TableRow>
+
+</TableLayout>
+
+</LinearLayout>

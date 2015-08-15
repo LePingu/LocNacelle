@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollSubs"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="6">
+
+
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="textPersonName"
+            android:hint="@string/nom"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editSurname"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="textPersonName"
+            android:hint="Prénom"
+            android:textSize="20dp"/>
+
+
+        <EditText
+            android:id="@+id/editCompany"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="textPersonName"
+            android:hint="Société"
+            android:textSize="20dp"/>
+
+
+
+
+        <EditText
+            android:id="@+id/CountryCode"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="Département"
+            android:textSize="20dp"/>
+
+
+        <EditText
+            android:id="@+id/editMail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="textEmailAddress"
+            android:hint="Adresse Mail"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:hint="Mot de Passe"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:hint="Confirmer Mot de Passe"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnSubs"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#0469BA"
+            android:textColor="@android:color/white"
+            android:text="S'INSCRIRE"
+            android:onClick="onClick"
+            android:textStyle="bold"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#ef7b0a</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="tab_color">#ff232a34</color>
+
+    <color name="barre">#222A34</color>
+    <color name="ecriture">#54647B</color>
+    <color name="barre2">#425366</color>
+
+</resources>
