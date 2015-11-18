@@ -25,8 +25,8 @@
             android:label="@string/title_activity_subscribe" >
         </activity>
         <activity
-            android:name=".MyBeamTryActivity"
-            android:label="@string/title_activity_my_beam_try" >
+            android:name=".ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password" >
         </activity>
     </application>
 

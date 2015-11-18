@@ -14,10 +14,13 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.GestureDetector;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -44,6 +47,14 @@ public class FragmentInsideDrawer extends Fragment {
 
     public void setDrawerListener(FragmentDrawerListener listener) {
         this.drawerListener = listener;
+    }
+
+    public void openDrawer(){
+        mDrawerLayout.openDrawer(Gravity.RIGHT);
+    }
+
+    public void closeDrawer(){
+        mDrawerLayout.closeDrawer(Gravity.RIGHT);
     }
 
     public static List<DrawerItem> getData() {
@@ -193,5 +204,35 @@ public class FragmentInsideDrawer extends Fragment {
 
     public interface FragmentDrawerListener {
         public void onDrawerItemSelected(View view, int position);
+    }
+
+
+    @Override
+
+    public void onActivityCreated(Bundle savedInstanceState){
+        super.onActivityCreated(savedInstanceState);
+
+        ImageButton buttClose = (ImageButton)getActivity().findViewById(R.id.closeButton);
+        ImageButton HomeButt = (ImageButton)getActivity().findViewById(R.id.homeButton);
+
+        buttClose.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mDrawerLayout.closeDrawer(Gravity.RIGHT);
+            }
+        });
+
+        HomeButt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                android.support.v4.app.FragmentManager fragmentManager = getFragmentManager();
+                android.support.v4.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frame_container, new AssaiFragment());
+                fragmentTransaction.commit();
+                mDrawerLayout.closeDrawer(Gravity.RIGHT);
+            }
+        });
+
+
     }
 }

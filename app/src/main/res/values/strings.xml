@@ -49,6 +49,7 @@
     <string name="title_mine_activity">MineActivity</string>
     <string name="title_activity_caca">caca</string>
     <string name="title_activity_test_splash">TestSplash</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
 
 
     <string name="etapeSuivante">SUIVANT</string>
@@ -91,8 +92,22 @@
     <string name="permMdp">MOT DE PASSE</string>
 
 
+    <!-- Fragment dialog Presence sur chantier -->
+    <string name="dialog_message_presence_chantier">Êtes-vous présent sur le chantier ?</string>
+
+    <!-- Progress dialog fragment -->
+    <string name="message_progress_dialog">Demande en cours...</string>
+
+
+    <!-- Etape 1 -->
+    <string name="titre_etape1">Sélectionnez une solution</string>
+    <string name="sous_titre_etape1">INTERVENTION D\'UN CONSEILLER SUR VOTRE CHANTIER</string>
+    <string name="formulaire">RECEVOIR LE FORMULAIRE DE QUALIFICATION DU BESOIN PAR MAIL</string>
+    <string name="suite_parcours">POURSUIVRE LE PARCOURS DE QUALIFICATION</string>
+
+
     <!-- Etape 2 -->
-    <string name="title_activity_type_chantier">Étape 2</string>
+    <string name="title_activity_type_chantier">ÉTAPE 2</string>
     <string name="TypeChantier">Type de chantier</string>
     <string name="interieur">INTÉRIEUR</string>
     <string name="exterieur">EXTÉRIEUR</string>
@@ -151,11 +166,19 @@
     <!-- Etape 8 -->
     <string name="title_activity_etape8">ÉTAPE 8</string>
     <string name="titre8">ADRESSE DU CHANTIER</string>
-    <string name="numeroRue">NUMÉRO</string>
+    <string name="nom_chantier">NOM DU CHANTIER</string>
+    <string name="numeroRue">NUMÉRO DE CHANTIER</string>
     <string name="rue">RUE</string>
     <string name="codePostal">CODE POSTAL</string>
     <string name="ville">VILLE</string>
     <string name="dialog_champs">Veuillez remplir tous les champs</string>
     <string name="title_activity_subscribe">SubscribeActivity</string>
     <string name="title_activity_my_beam_try">MyBeamTryActivity</string>
+    <string name="segeolocaliser">SE GÉOLOCALISER</string>
+
+    <!-- Etape 9 -->
+    <string name="title_activity_etape9">ÉTAPE 9</string>
+    <string name="titre9">DÉTAILS DE L\'INTERVENTION</string>
+    <string name="date_livraison">Date de la livraison</string>
+    <string name="date_fin_chantier">Date de fin de chantier</string>
 </resources>

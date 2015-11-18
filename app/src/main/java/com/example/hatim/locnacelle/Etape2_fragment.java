@@ -36,8 +36,12 @@ public class Etape2_fragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState){
         super.onActivityCreated(savedInstanceState);
+        barre1 = (TextView) this.getActivity().findViewById(R.id.barre1);
+        barre2 = (TextView) this.getActivity().findViewById(R.id.barre2);
 
-
+        barre1.setText(R.string.title_activity_type_chantier);
+        barre1.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.avancement2, 0);
+        barre2.setText(R.string.TypeChantier);
 
     }
 
@@ -47,8 +51,7 @@ public class Etape2_fragment extends Fragment {
     {
         View view = inflater.inflate(R.layout.fragment_etape2_fragment, container, false);
 
-        barre1 = (TextView) this.getActivity().findViewById(R.id.barre1);
-        barre2 = (TextView) this.getActivity().findViewById(R.id.barre2);
+
 
         interieurBtn = (Button) view.findViewById(R.id.interieurBtn);
         interieurBtn.setOnClickListener(new View.OnClickListener()

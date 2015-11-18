@@ -61,7 +61,7 @@ public class Etape3_fragment extends Fragment {
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 Etape4_fragment frag4 = new Etape4_fragment();
                 fragmentTransaction.replace(R.id.fragment_container, frag4, "fragment4");
-                fragmentTransaction.addToBackStack("fragment4");
+                fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
 
 

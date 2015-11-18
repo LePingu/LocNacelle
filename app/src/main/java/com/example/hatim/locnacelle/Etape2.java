@@ -44,7 +44,7 @@ public class Etape2 extends Fragment {
         {
             FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-            Etape2_fragment frag2 = new Etape2_fragment();
+            Etape1 frag2 = new Etape1();
             fragmentTransaction.add(R.id.fragment_container, frag2, "fragment2");
             fragmentTransaction.commit();
 

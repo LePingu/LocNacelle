@@ -3,4 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#006ab8"/>
+    android:background="#006ab8">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:id="@+id/burgerButt"
+        android:background="@drawable/burger"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+</android.support.v7.widget.Toolbar>

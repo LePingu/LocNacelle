@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/dateLivraison"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="@string/date_livraison"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:gravity="top|center"
+                android:paddingTop="5dp"
+                />
+
+            <Button
+                android:id="@+id/dateFinChantier"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="@string/date_fin_chantier"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:gravity="top|center"
+                android:paddingTop="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.25"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_dateLivraison"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center|top"
+                android:textAllCaps="true"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/btn_dateFinChantier"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center|top"
+                android:textAllCaps="true"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4.5"/>
+
+    <Button
+        android:id="@+id/btnEtapeSuivante"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0469BA"
+        android:textColor="@android:color/white"
+        android:text="@string/etapeSuivante"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+</LinearLayout>

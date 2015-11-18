@@ -68,7 +68,7 @@ public class AssistanceFragment extends Fragment {
         LinearLayout ll = (LinearLayout) tw.getParent();
         HorizontalScrollView hs = new HorizontalScrollView(getActivity());
         hs.setLayoutParams(new FrameLayout.LayoutParams(
-                FrameLayout.LayoutParams.MATCH_PARENT,
+                FrameLayout.LayoutParams.FILL_PARENT,
                 FrameLayout.LayoutParams.WRAP_CONTENT));
         ll.addView(hs, 0);
         ll.removeView(tw);

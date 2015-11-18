@@ -33,10 +33,6 @@ public class Etape4_fragment extends Fragment implements View.OnClickListener{
     boolean parkingBtnPressed = false;
     //boolean autreBtnPressed = false;
 
-    private TextView tv1;
-    private TextView tv2;
-    private TextView tv3;
-    private TextView tv4;
     private TextView barre1;
     private TextView barre2;
 
@@ -80,11 +76,6 @@ public class Etape4_fragment extends Fragment implements View.OnClickListener{
         autre = (Button) view.findViewById(R.id.autreBtn);
         autre.setOnClickListener(this);
 
-        tv1 = (TextView) view.findViewById(R.id.tv1);
-        tv2 = (TextView) view.findViewById(R.id.tv2);
-        tv3 = (TextView) view.findViewById(R.id.tv3);
-        tv4 = (TextView) view.findViewById(R.id.tv4);
-
         editSousS = (EditText) view.findViewById(R.id.editSousS);
 
         type = Typeface.createFromAsset(getActivity().getAssets(),"bebasneue.ttf");
@@ -125,10 +116,6 @@ public class Etape4_fragment extends Fragment implements View.OnClickListener{
         {
             case R.id.oui_btn:
                 ouiBtn.setBackgroundColor(getResources().getColor(R.color.orange));
-                tv1.setBackgroundColor(getResources().getColor(R.color.orange));
-                tv2.setBackgroundColor(getResources().getColor(R.color.orange));
-                tv3.setBackgroundColor(getResources().getColor(R.color.white));
-                tv4.setBackgroundColor(getResources().getColor(R.color.white));
                 nonBtn.setBackgroundColor(getResources().getColor(R.color.white));
 
                 ouiBtnPressed = true;
@@ -138,11 +125,11 @@ public class Etape4_fragment extends Fragment implements View.OnClickListener{
 
             case R.id.non_btn:
                 ouiBtn.setBackgroundColor(getResources().getColor(R.color.white));
-                tv1.setBackgroundColor(getResources().getColor(R.color.white));
-                tv2.setBackgroundColor(getResources().getColor(R.color.white));
-                tv3.setBackgroundColor(getResources().getColor(R.color.orange));
-                tv4.setBackgroundColor(getResources().getColor(R.color.orange));
                 nonBtn.setBackgroundColor(getResources().getColor(R.color.orange));
+                garage.setBackgroundColor(getResources().getColor(R.color.white));
+                parking.setBackgroundColor(getResources().getColor(R.color.white));
+                videS.setBackgroundColor(getResources().getColor(R.color.white));
+                autre.setBackgroundColor(getResources().getColor(R.color.white));
 
                 ouiBtnPressed = false;
                 nonBtnPressed = true;

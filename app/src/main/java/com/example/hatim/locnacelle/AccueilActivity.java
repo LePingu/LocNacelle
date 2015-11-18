@@ -110,12 +110,18 @@ public class AccueilActivity extends Activity {
 
         myList = new EditText[]{mail,password};
 
+        ForgotButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ForgotPasswordActivity.class));
+            }
+        });
+
 
         SubsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), SubscribeActivity.class));
-                finish();
             }
         });
 
@@ -141,4 +147,6 @@ public class AccueilActivity extends Activity {
         }
         return true;
     }
+
+
 }

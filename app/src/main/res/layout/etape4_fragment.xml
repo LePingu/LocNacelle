@@ -17,54 +17,34 @@
             android:id="@+id/linear1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="2">
 
-
-            <TextView
-                android:id="@+id/tv1"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.5"/>
 
             <Button
                 android:id="@+id/oui_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="5"
+                android:layout_weight="1"
+                android:paddingLeft="30dp"
                 android:background="@android:color/transparent"
                 android:text="@string/oui"
                 android:textStyle="bold"
                 android:textSize="30dp"
                 android:drawableLeft="@drawable/oui"/>
 
-            <TextView
-                android:id="@+id/tv2"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.25"/>
-
-            <TextView
-                android:id="@+id/tv3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.25"/>
 
             <Button
                 android:id="@+id/non_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="5"
+                android:layout_weight="1"
+                android:paddingLeft="30dp"
                 android:background="@android:color/transparent"
                 android:text="@string/non"
                 android:textStyle="bold"
                 android:textSize="30dp"
                 android:drawableLeft="@drawable/non"/>
-
-            <TextView
-                android:id="@+id/tv4"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.5"/>
 
         </LinearLayout>
 
